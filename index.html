@@ -11,23 +11,28 @@
       rel="stylesheet"
     />
     <!-- custom css -->
-    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/header_navBar.css" />
+    <link rel="stylesheet" href="css/home.css" />
+    <link rel="stylesheet" href="css/about.css" />
+    <link rel="stylesheet" href="css/skills.css" />
+    <link rel="stylesheet" href="css/contact.css" />
   </head>
-
   <body>
     <!-- header design-->
     <header class="header">
       <a href="#" class="logo">Ohad Afriat.</a>
 
       <nav class="navbar">
-        <a href="#" class="active">Home</a>
-        <a href="#">About</a>
-        <a href="#">Skills</a>
-        <a href="#">Contact</a>
+        <a href="#home" class="active">Home</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#contact">Contact</a>
       </nav>
       <div class="bx bx-moon" id="darkMode-icon"></div>
     </header>
 
+    <!-- home section design -->
     <section class="home" id="home">
       <div class="home-content">
         <h3>Hello, I am</h3>
@@ -44,41 +49,111 @@
 
       <div class="profession-container">
         <div class="profession-box">
-          <div class="profession" style="--i: 0;">
+          <div class="profession" style="--i: 0">
             <i class="bx bx-code"></i>
             <h3>Software Engineer</h3>
           </div>
-          <div class="profession" style="--i: 1;">
+          <div class="profession" style="--i: 1">
             <i class="bx bx-coin-stack"></i>
             <h3>Full-Stack Engineer</h3>
           </div>
-          <div class="profession" style="--i: 2;">
+          <div class="profession" style="--i: 2">
             <i class="bx bx-server"></i>
             <h3>Software Developer</h3>
           </div>
-          <div class="profession" style="--i: 3;">
-            <i class="bx bx-code-alt"></i>
+          <div class="profession" style="--i: 3">
+            <i class='bx bxs-coin-stack' ></i>
             <h3>Full-Stack Developer</h3>
           </div>
-          <div class="profession" style="--i: 4;">
-            <i class="bx bx-hdd"></i>
+          <div class="profession" style="--i: 4">
+            <i class="bx bx-server"></i>
             <h3>Back-End Engineer</h3>
           </div>
-          <div class="profession" style="--i: 5;">
-            <i class="bx bx-chip"></i>
+          <div class="profession" style="--i: 5">
+            <i class='bx bx-game'></i>
             <h3>Game Developer</h3>
           </div>
           <div class="circle"></div>
         </div>
 
         <div class="overlay"></div>
-      </div>
-      <div class="home-img">
-        <img src="" alt="">
+
+        <div class="home-img">
+          <img src="images/Home.png" alt="" />
+        </div>
       </div>
     </section>
 
+    <!-- about section design -->
+    <section class="about" id="about">
+      <div class="about-img">
+        <img src="images/About.png" alt="" />
+      </div>
+
+      <div class="about-content">
+        <h2 class="heading">About <span>Me</span></h2>
+        <h3>Hi, I'm love to code and develop.</h3>
+        <p>
+          Motivated Computer and Electrical Engineer with a passion for Computer
+          Science. Proficient in C#, Python, C/C++, Javascript/TypeScript,
+          React, Node.js, Java and more. Fast learner, team player, dedicated
+          problem-solver who love to code and develop. Seeking a Full-stack
+          development position to enhance skills in Back-end and Front-end
+          technologies. Excited to work together in creating outstanding user
+          experiences and developing reliable software solutions.
+        </p>
+        <a href="#" class="btn"> Read More </a>
+      </div>
+    </section>
+
+    <!-- skills section design  -->
+    <section class="skills" id="skills">
+      <h2 class="heading">My <span>Skills</span></h2>
+
+      <div class="skills-container">
+        <div class="skills-box">
+          <i class='bx bx-code-curly'></i>
+          <h3>Languages:</h3>
+          <p>
+            Pythons Pythons Pythons Pythons Pythons Pythons Pythonsns Pythons
+          </p>
+        </div>
+
+        <div class="skills-box">
+          <i class='bx bx-code-curly'></i>
+          <h3>Languages:</h3>
+          <p>
+            Pythons and more...
+          </p>
+        </div>
+
+        <div class="skills-box">
+          <i class='bx bx-code-curly'></i>
+          <h3>Languages:</h3>
+          <p>
+            Pythons and more...
+          </p>
+        </div>
+      </div>
+    </section>
+
+    <!-- contact section design  -->
+    <section class="contact" id="contact">
+      <h2 calss="heading">Contact <span>Me!</span></h2>
+
+      <div class="contact-warpper">
+        <div class="contact-box">
+          <div class="contact-content">
+            <img src="/images/Contact.png" alt="">
+            <h3>My Email is: Ohad.S.Afriat@gmail.com</h3>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Veniam voluptas, minus numquam iure saepe laudantium neque impedit! Cumque eos cupiditate atque accusantium fuga et quam libero repellat consequatur perferendis! Itaque!</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+
     <!-- custom js-->
-    <script></script>
+    <script src="js/scripts"></script>
   </body>
 </html>
