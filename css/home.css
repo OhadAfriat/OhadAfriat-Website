@@ -75,7 +75,7 @@
   flex-direction: column;
   color: var(--main-color);
   transform: rotate(calc(360deg / 6 * var(--i)));
-  transform-origin: 384px;
+  transform-origin: 400px;
   background: var(--bg-color);
   padding: 13px 0;
 }
@@ -115,10 +115,10 @@
   right: 0;
   width: 0;
   height: 0;
-  border-top: 420px solid var(--main-color);
-  border-right: 384px solid var(--main-color);
-  border-bottom: 384px solid var(--main-color);
-  border-left: 384px solid transparent;
+  border-top: 400px solid var(--main-color);
+  border-right: 400px solid var(--main-color);
+  border-bottom: 400px solid var(--main-color);
+  border-left: 400px solid transparent;
 }
 
 .home-img img {
