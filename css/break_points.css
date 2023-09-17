@@ -121,7 +121,7 @@
   }
 
   .home {
-    padding: 7rem 3% 23rem;
+    padding: .1rem 3% 23rem;
     justify-content: center;
     text-align: center;
   }
@@ -135,7 +135,7 @@
   }
 
   .home-content .social-media a {
-    margin: 2.5rem 0.75rem 3rem;
+    margin: 3rem 1rem;
   }
 
   .home .profession-container {
@@ -152,14 +152,17 @@
     width: 100%;
   }
 
+  .home .profession-container .profession-box .profession i {
+    font-size: 3.2rem;
+  }
+  .home .profession-container .profession-box .profession h3 {
+    font-size: large;
+  }
+
   .home .profession-box .profession {
     padding: 0 13px;
     left: auto;
     transform-origin: 0;
-  }
-
-  .home .profession-box .profession:nth-child(1) {
-    transform: rotate(-60deg) translate(-120px, -210px);
   }
 
   .home .profession-box .profession:nth-child(1) i {
@@ -170,29 +173,39 @@
     padding-bottom: 0;
   }
 
+  .home .profession-box .profession:nth-child(1) {
+    transform: rotate(-60deg) translate(-120px,-210px);
+  }
+
   .home .profession-box .profession:nth-child(2){
-    transform: rotate(0deg) translate(0px, -335px);
+    transform: rotate(0deg) translate(0 ,-335px);
   }
 
   .home .profession-box .profession:nth-child(3){
-    transform: rotate(60deg) translate(0px, -450px);
+    transform: rotate(60deg) translate(0px ,-450px);
   }
 
   .home .profession-box .profession:nth-child(4){
-    transform: rotate(120deg) translate(-220px, -335px);
+    transform: rotate(120deg) translate(-220px ,-335px);
   }
 
   .home .profession-box .profession:nth-child(5){
-    transform: rotate(180deg) translate(a, b);
+    transform: rotate(180deg) translate(-335px ,-115px);
   }
 
   .home .profession-box .profession:nth-child(6){
-    transform: rotate(240deg) translate(c, d);
+    transform: rotate(240deg) translate(-210px ,-120px);
+  }
+  .home .profession-box .circle{
+    position: fixed;
+    width: 670px;
+    height: 670px;
+    z-index: -1;
   }
 
   .home .profession-container .overlay {
     position: fixed;
-    top: 54rem;
+    top: 70rem;
     left: 50%;
     right: 0;
     transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
