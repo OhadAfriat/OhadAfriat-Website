@@ -19,6 +19,12 @@
   --white-color: #fdfdfd;
 }
 
+.dark-mode {
+  --bg-color: #0b061f;
+  --text-color: #fdfdfd;
+  --shadow-color: rgba(0, 0, 0, 0.7);
+}
+
 html {
   font-size: 62.5%;
   overflow-x: hidden;
@@ -86,7 +92,7 @@ span {
   border-radius: 0.8rem;
   border: 0.2rem solid var(--main-color);
   outline: 0.2rem solid transparent;
-  transition: .5s ease;
+  transition: 0.5s ease;
 }
 
 .footer-iconTop a:hover {
@@ -96,5 +102,3 @@ span {
   font-size: 2.4rem;
   color: #333;
 }
-
-

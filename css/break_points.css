@@ -16,11 +16,18 @@
   .home .profession-container .overlay {
     right: -9rem;
   }
+
+  .contact {
+    min-height: 10rem;
+    margin-top: 10rem;
+  }
 }
 
 @media (max-width: 1024px) {
   .header {
-    padding: 2rem 3%;
+    padding: 2rem 3% 2rem;
+    right: 0;
+    object-fit: fill;
   }
 
   section {
@@ -55,7 +62,7 @@
   }
 
   .home .profession-container .overlay {
-    right: -39.5rem;
+    right: -37rem;
   }
 
   .home-img img {
@@ -64,6 +71,7 @@
 
   .contact {
     min-height: auto;
+    padding: 10rem 1rem 1rem 1rem;
   }
 
   .footer {
@@ -121,7 +129,7 @@
   }
 
   .home {
-    padding: .1rem 3% 23rem;
+    padding: 0.1rem 3% 23rem;
     justify-content: center;
     text-align: center;
   }
@@ -173,30 +181,23 @@
     padding-bottom: 0;
   }
 
-  .home .profession-box .profession:nth-child(1) {
-    transform: rotate(-60deg) translate(-120px,-210px);
+  .home .profession-container .profession-box .profession:nth-child(1) {  /*Software Engineer*/
+    transform: rotate(-90deg) translate(-120px, -210px);
   }
 
-  .home .profession-box .profession:nth-child(2){
-    transform: rotate(0deg) translate(0 ,-335px);
+  .home .profession-container .profession-box .profession:nth-child(2) {  /*Full-Stack Engineer*/
+    transform: rotate(0deg) translate(225px, -335px);
   }
 
-  .home .profession-box .profession:nth-child(3){
-    transform: rotate(60deg) translate(0px ,-450px);
+  .home .profession-container .profession-box .profession:nth-child(3) {  /*Back-End Engineer*/
+    transform: rotate(90deg) translate(210px, -280px);
   }
 
-  .home .profession-box .profession:nth-child(4){
-    transform: rotate(120deg) translate(-220px ,-335px);
+  .home .profession-container .profession-box .profession:nth-child(4) {  /*Game Developer*/
+    transform: rotate(180deg) translate(-220px, -335px);
   }
 
-  .home .profession-box .profession:nth-child(5){
-    transform: rotate(180deg) translate(-335px ,-115px);
-  }
-
-  .home .profession-box .profession:nth-child(6){
-    transform: rotate(240deg) translate(-210px ,-120px);
-  }
-  .home .profession-box .circle{
+  .home .profession-box .circle {
     position: fixed;
     width: 670px;
     height: 670px;
@@ -210,5 +211,84 @@
     right: 0;
     transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
     border-width: 23.9rem;
+  }
+
+  .about {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .about-content h2 {
+    text-align: center;
+  }
+
+  .about-img img {
+    width: 40vw;
+    margin-top: -3rem;
+  }
+
+  .skills h2 {
+    margin-bottom: 2rem;
+  }
+
+  .contact {
+    padding-bottom: 5rem;
+  }
+
+  .contact .contact-wrapper {
+    padding: 0;
+  }
+
+  .contact-contect {
+    padding: 3rem 2rem;
+  }
+}
+
+@media (max-width: 450px) {
+  html{
+    font-size: 50%;
+  }
+
+  #darkMode-icon{
+    right: 6rem;
+  }
+
+  .home{
+    padding: 0 3% 30rem;
+  }
+
+  .home .profession-box .profession:nth-child(1) {  /*Software Engineer*/
+    transform: rotate(-90deg) translate(-110px, -220px);
+  }
+
+  .home .profession-box .profession:nth-child(2) {  /*Full-Stack Engineer*/
+    transform: rotate(0deg) translate(5px, -335px);
+  }
+
+  .home .profession-box .profession:nth-child(3) {  /*Back-End Engineer*/
+    transform: rotate(90deg) translate(-105px, -440px);
+  }
+
+  .home .profession-box .profession:nth-child(4) {  /*Game Developer*/
+    transform: rotate(180deg) translate(-210px, -335px);
+  }
+
+  .footer .footer-iconTop{
+    margin-left: 1rem;
+  }
+}
+
+@media (max-width: 392px) {
+  .about-img{
+    width: 90vw;
+  }
+
+  .footer{
+    flex-direction: column-reverse;
+  }
+
+  .footer p{
+    text-align: center;
+    margin-top: 2rem;
   }
 }
