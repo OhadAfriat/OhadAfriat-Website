@@ -46,6 +46,10 @@
   color: var(--main-color);
 }
 
+.skills-box:hover .category {
+  color: var(--main-color);
+}
+
 .skills-box p {
   font-size: 1.6rem;
   margin: 1rem 0 3rem;

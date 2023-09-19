@@ -1,5 +1,5 @@
 /* Break-Points */
-@media (max-width: 1200px) {
+@media (max-width: 1310px) {
   html {
     font-size: 55%;
   }
@@ -22,6 +22,7 @@
     margin-top: 10rem;
   }
 }
+
 
 @media (max-width: 1024px) {
   .header {
@@ -62,7 +63,7 @@
   }
 
   .home .profession-container .overlay {
-    right: -37rem;
+    right: -38rem;
   }
 
   .home-img img {
@@ -78,6 +79,7 @@
     padding: 2rem 3%;
   }
 }
+
 
 @media (max-width: 768px) {
   #menu-icon {
@@ -102,6 +104,7 @@
     border-top: 0.1rem solid rgba(0, 0, 0, 0.2);
     box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.1);
     display: none;
+    margin-top: -2rem;
   }
 
   .navbar.active {
@@ -132,6 +135,10 @@
     padding: 0.1rem 3% 23rem;
     justify-content: center;
     text-align: center;
+  }
+
+  .home .home-content{
+    padding-top: 5rem;
   }
 
   .home-content h3 {
@@ -167,34 +174,35 @@
     font-size: large;
   }
 
-  .home .profession-box .profession {
+  .home .profession-container .profession-box .profession {
     padding: 0 13px;
     left: auto;
     transform-origin: 0;
   }
 
-  .home .profession-box .profession:nth-child(1) i {
-    margin-right: 0;
-  }
-
-  .home .profession-box .profession:nth-child(2) i {
-    padding-bottom: 0;
+  .home .profession-container .profession-box .profession{
+    padding-bottom: .5rem;
+    padding-top: .5rem;
   }
 
   .home .profession-container .profession-box .profession:nth-child(1) {  /*Software Engineer*/
-    transform: rotate(-90deg) translate(-120px, -210px);
+    transform: rotate(-90deg) translate(-98px, -240px);
   }
 
   .home .profession-container .profession-box .profession:nth-child(2) {  /*Full-Stack Engineer*/
-    transform: rotate(0deg) translate(225px, -335px);
+    transform: rotate(0deg) translate(0px, -335px) ;
   }
 
   .home .profession-container .profession-box .profession:nth-child(3) {  /*Back-End Engineer*/
-    transform: rotate(90deg) translate(210px, -280px);
+    transform: rotate(90deg) translate(-100px, -440px);
   }
 
   .home .profession-container .profession-box .profession:nth-child(4) {  /*Game Developer*/
-    transform: rotate(180deg) translate(-220px, -335px);
+    transform: rotate(180deg) translate(-185px, -340px);
+  }
+
+  .home .profession-box {
+    margin-top: 4rem;
   }
 
   .home .profession-box .circle {
@@ -206,7 +214,7 @@
 
   .home .profession-container .overlay {
     position: fixed;
-    top: 70rem;
+    top: 65rem;
     left: 50%;
     right: 0;
     transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
@@ -255,6 +263,10 @@
 
   .home{
     padding: 0 3% 30rem;
+  }
+  
+  .home .home-content{
+    margin-top: 3rem;
   }
 
   .home .profession-box .profession:nth-child(1) {  /*Software Engineer*/
