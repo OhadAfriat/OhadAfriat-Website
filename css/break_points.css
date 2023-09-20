@@ -17,9 +17,21 @@
     right: -9rem;
   }
 
+  .skills{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
   .contact {
     min-height: 10rem;
-    margin-top: 10rem;
+    height: 100vh;
+  }
+
+  .contact .contact-wrapper{
+    margin-right: 0;
+    margin-left: 0;
+    max-width: 110rem;
   }
 }
 
@@ -27,8 +39,6 @@
 @media (max-width: 1024px) {
   .header {
     padding: 2rem 3% 2rem;
-    right: 0;
-    object-fit: fill;
   }
 
   section {
@@ -44,7 +54,8 @@
   }
 }
 
-@media (max-width: 991px) {
+
+@media (max-width: 991px){
   .navbar a:nth-child(1) {
     color: var(--main-color);
   }
@@ -63,12 +74,13 @@
   }
 
   .home .profession-container .overlay {
-    right: -38rem;
+    right: -34rem;
   }
 
   .home-img img {
     display: none;
   }
+
 
   .contact {
     min-height: auto;
@@ -78,6 +90,7 @@
   .footer {
     padding: 2rem 3%;
   }
+
 }
 
 
@@ -132,7 +145,7 @@
   }
 
   .home {
-    padding: 0.1rem 3% 23rem;
+    padding: 0.1rem 3% 44rem;
     justify-content: center;
     text-align: center;
   }
@@ -156,7 +169,7 @@
   .home .profession-container {
     left: 0;
     width: 100%;
-    height: 100%;
+    height: 110%;
   }
 
   .home .profession-container .profession-box {
@@ -214,7 +227,7 @@
 
   .home .profession-container .overlay {
     position: fixed;
-    top: 65rem;
+    top: 100rem;
     left: 50%;
     right: 0;
     transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
@@ -233,6 +246,10 @@
   .about-img img {
     width: 40vw;
     margin-top: -3rem;
+  }
+
+  .skills .skills-container{
+    flex-direction: column;
   }
 
   .skills h2 {
@@ -262,7 +279,7 @@
   }
 
   .home{
-    padding: 0 3% 30rem;
+    padding: 0 3% 50rem;
   }
   
   .home .home-content{
@@ -288,6 +305,7 @@
   .footer .footer-iconTop{
     margin-left: 1rem;
   }
+
 }
 
 @media (max-width: 392px) {

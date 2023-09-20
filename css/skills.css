@@ -4,6 +4,7 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
+  padding-bottom: 5rem;
 }
 
 .skills-container .skills-box {
@@ -29,12 +30,17 @@
 }
 
 .skills {
+  display: flex;
   min-height: auto;
-  padding-bottom: 7rem;
+  padding-top: 12rem;
+  padding-bottom: 10rem;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
 }
 
 .skills h2 {
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 .skills-box h3 {

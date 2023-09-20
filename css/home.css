@@ -46,7 +46,7 @@
 
 .home .profession-container {
   position: absolute;
-  top: 50%;
+  top: 45%;
   right: 0;
   transform: translateY(-50%);
   width: 768px;

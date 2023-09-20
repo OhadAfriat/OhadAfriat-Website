@@ -27,7 +27,6 @@
 
 html {
   font-size: 62.5%;
-  overflow-x: hidden;
 }
 
 body {
@@ -35,9 +34,16 @@ body {
   color: var(--text-color);
 }
 
+html,
+body {
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
 section {
   min-height: 100vh;
   padding: 10rem 7% 2rem;
+  overflow-y: hidden;
 }
 
 span {
