@@ -314,15 +314,18 @@
     margin-left: 1rem;
   }
 
+
+  .footer{
+    display: flex;
+    flex-direction: column-reverse;
+    text-align: center;
+    justify-content: center;
+  }
 }
 
 @media (max-width: 392px) {
   .about-img{
     width: 80vw;
-  }
-
-  .footer{
-    flex-direction: column-reverse;
   }
 
   .footer p{
