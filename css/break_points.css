@@ -245,7 +245,7 @@
   }
 
   .about-img img {
-    width: 40vw;
+    width: 100%;
     margin-top: -3rem;
   }
 
@@ -264,6 +264,7 @@
 
   .contact {
     padding-bottom: 5rem;
+    padding-top: 0rem;
   }
 
   .contact .contact-wrapper {
