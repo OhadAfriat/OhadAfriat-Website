@@ -274,7 +274,9 @@
   .contact-contect {
     padding: 3rem 2rem;
   }
+}
 
+@media (max-width: 470px) {
   .footer{
     display: flex;
     flex-direction: column-reverse;
