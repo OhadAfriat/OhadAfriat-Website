@@ -1,7 +1,7 @@
 /* Break-Points */
 @media (max-width: 1310px) {
   html {
-    font-size: 55%;
+    font-size: 60%;
   }
 
   .home .profession-container {
@@ -278,7 +278,7 @@
 
 @media (max-width: 450px) {
   html{
-    font-size: 50%;
+    font-size: 55%;
   }
 
   #darkMode-icon{
@@ -318,7 +318,7 @@
 
 @media (max-width: 392px) {
   .about-img{
-    width: 90vw;
+    width: 80vw;
   }
 
   .footer{
