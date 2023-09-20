@@ -145,7 +145,7 @@
   }
 
   .home {
-    padding: 0.1rem 3% 44rem;
+    padding: 6rem 3% 44rem;
     justify-content: center;
     text-align: center;
   }
@@ -227,11 +227,12 @@
 
   .home .profession-container .overlay {
     position: fixed;
-    top: 100rem;
+    top: 80rem;
     left: 50%;
     right: 0;
     transform: rotate(90deg) translate(-50%, 50%) scaleY(3);
     border-width: 23.9rem;
+    bottom: 0;
   }
 
   .about {
@@ -246,6 +247,10 @@
   .about-img img {
     width: 40vw;
     margin-top: -3rem;
+  }
+
+  .skills{
+    padding-top: 30rem;
   }
 
   .skills .skills-container{
@@ -280,6 +285,7 @@
 
   .home{
     padding: 0 3% 50rem;
+    padding-top: 2rem;
   }
   
   .home .home-content{
