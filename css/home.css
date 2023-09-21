@@ -39,7 +39,7 @@
   transition: 0.5s ease;
 }
 
-.home-content .social-media a:hover {
+.home-content .social-media a.hovered:hover {
   background: var(--main-color);
   color: var(--white-color);
 }
