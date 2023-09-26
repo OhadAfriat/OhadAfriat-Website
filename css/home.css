@@ -93,7 +93,7 @@
   align-items: center;
   flex-direction: column;
   color: var(--main-color);
-  transform: rotate(calc(360deg / 4 * var(--i))) translateX(-100px);
+  transform: rotate(calc(360deg / 4 * var(--i))) translateX(-140px);
   transform-origin: 25vw;
   background: var(--bg-color);
   padding: 13px 0;
