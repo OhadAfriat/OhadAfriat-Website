@@ -303,7 +303,7 @@
 
   .home .profession-container .overlay {
     position: fixed;
-    top: 135lvh;
+    top: 135dvh;
     left: 50%;
     right: 0;
     transform: rotate(90deg) translate(-90%, 50%) ;
@@ -413,7 +413,7 @@
 
 
 
-@media (max-height: 720px) {
+@media (max-height: 730px) {
   .home .profession-container {
     top: 450px;
   }
