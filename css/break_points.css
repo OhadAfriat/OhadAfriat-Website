@@ -308,6 +308,7 @@
     right: 0;
     transform: rotate(90deg) translate(-90%, 50%) ;
     border-width: 53rem;
+    min-height: max-content;
   }
 
   .about {
@@ -400,7 +401,7 @@
 
   @media (max-height: 730px) {
     .home .profession-container {
-      top: 450px;
+      top: 410px;
     }
   }
 
