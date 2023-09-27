@@ -308,7 +308,7 @@
     right: 0;
     transform: rotate(90deg) translate(-90%, 50%) ;
     border-width: 53rem;
-    min-height: max-content;
+    min-height: 100dvh;
   }
 
   .about {
