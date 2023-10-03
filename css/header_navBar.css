@@ -24,7 +24,6 @@
   margin-right: auto;
 }
 
-
 .navbar a {
   position: relative;
   font-size: 1.7rem;
@@ -67,8 +66,7 @@
   opacity: 0.9;
 }
 
-
-#menu-icon{
+#menu-icon {
   font-size: 3.6rem;
   color: var(--text-color);
   display: none;
