@@ -300,7 +300,7 @@
 
   .home .profession-container .overlay {
     position: fixed;
-    top: 140lvh;
+    top: 100lvh;
     left: 50%;
     right: 0;
     transform: rotate(90deg) translate(-90%, 50%);
@@ -345,6 +345,36 @@
 
   .contact-contect {
     padding: 3rem 2rem;
+  }
+
+  @media (max-height: 750px) {
+    .home .profession-container {
+      top: 410px;
+    }
+  }
+
+  @media (max-height: 710px) {
+    .home .profession-container {
+      top: 430px;
+    }
+  }
+
+  @media (max-height: 660px) {
+    .home .profession-container {
+      top: 450px;
+    }
+  }
+
+  @media (max-height: 620px) {
+    .home .profession-container {
+      top: 470px;
+    }
+  }
+
+  @media (max-height: 590px) {
+    .home .profession-container {
+      top: 490px;
+    }
   }
 }
 
@@ -399,11 +429,6 @@
     margin-left: 1rem;
   }
 
-  @media (max-height: 730px) {
-    .home .profession-container {
-      top: 410px;
-    }
-  }
 }
 
 @media (max-width: 392px) {
