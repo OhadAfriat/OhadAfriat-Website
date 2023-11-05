@@ -4,13 +4,12 @@
   align-items: center;
   flex-wrap: wrap;
   gap: 2rem;
-  padding-bottom: 5rem;
 }
 
 .skills-container .skills-box {
   flex: 1 1 30rem;
   background: var(--bg-color);
-  padding: 3rem 2rem 4rem;
+  padding: 3rem 2rem 2rem;
   border-radius: 2rem;
   box-shadow: 0 0.1rem 0.5rem var(--shadow-color);
   text-align: center;
