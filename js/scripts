@@ -83,5 +83,3 @@ document.querySelectorAll(".btn").forEach(function (link) {
     link.classList.add("hovered");
   });
 });
-
-/*-----cant change orientation-----*/
