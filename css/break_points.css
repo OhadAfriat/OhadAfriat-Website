@@ -306,7 +306,6 @@
     transform: rotate(90deg) translate(-90%, 50%);
     border-width: 53rem;
     min-height: 100vh;
-    overflow-y: visible;
   }
 
   .about {
