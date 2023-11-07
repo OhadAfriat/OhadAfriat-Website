@@ -220,6 +220,7 @@
     padding: 6rem 3% 44rem;
     justify-content: center;
     text-align: center;
+    overflow-y: visible;
   }
 
   .home .home-content {
@@ -300,11 +301,11 @@
 
   .home .profession-container .overlay {
     position: fixed;
-    top: 135lvh;
+    top: 125lvh;
     left: 50%;
     right: 0;
     transform: rotate(90deg) translate(-90%, 50%);
-    border-width: 60rem;
+    border-width: 50rem;
   }
 
   .about {
