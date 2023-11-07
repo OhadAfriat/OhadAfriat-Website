@@ -300,7 +300,7 @@
 
   .home .profession-container .overlay {
     position: fixed;
-    top: 125svh;
+    top: 135dvh;
     left: 50%;
     right: 0;
     transform: rotate(90deg) translate(-90%, 50%);
