@@ -66,7 +66,6 @@ ScrollReveal().reveal(".home-content h3, .home-content p, .about-content", {
 /*-----hover effect fix-----*/
 document.querySelectorAll("a").forEach(function (link) {
   link.addEventListener("click", function () {
-    console.log("hi")
     link.classList.remove("hovered");
   });
 

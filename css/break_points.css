@@ -384,6 +384,8 @@
     text-align: center;
     justify-content: center;
   }
+
+
 }
 
 @media (max-width: 450px) {
@@ -426,6 +428,7 @@
 
   .footer .footer-iconTop {
     margin-left: 1rem;
+    padding-bottom: 0.5rem;
   }
 
 }
