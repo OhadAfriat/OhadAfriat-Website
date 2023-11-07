@@ -101,7 +101,7 @@ span {
   transition: 0.5s ease;
 }
 
-.footer-iconTop a:hover {
+.footer-iconTop a.hovered:hover {
   outline-color: var(--white-color);
 }
 .footer-iconTop a i {
