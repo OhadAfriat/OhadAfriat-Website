@@ -300,12 +300,12 @@
 
   .home .profession-container .overlay {
     position: fixed;
-    top: 135lvh;
+    top: 135vh;
     left: 50%;
     right: 0;
     transform: rotate(90deg) translate(-90%, 50%);
     border-width: 53rem;
-    min-height: 130lvh;
+    min-height: 100lvh;
   }
 
   .about {
